@@ -7,7 +7,19 @@ app.get('/', (req, res) => {
       name: 'Bharath',
       email:'bharath@gmail.com'
 
-  }])
+  },{
+    name: 'Alice',
+    email:'alice@gmail.com'
+
+},{
+    name: 'Jake',
+    email:'jake@gmail.com'
+
+},{
+  name: 'Maria',
+  email:'maria@gmail.com'
+
+}])
 })
 
 app.listen(port, () => {
